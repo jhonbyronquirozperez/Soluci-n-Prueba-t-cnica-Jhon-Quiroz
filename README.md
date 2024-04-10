@@ -33,7 +33,8 @@ La página "About" incluye:
 
 - Código fuente disponible en: [ScanToolWP Plugin](https://github.com/jhonbyronquirozperez/Soluci-n-Prueba-t-cnica-Jhon-Quiroz/blob/main/wp-content/plugins/ScanToolWP/Scantool.php)
 
-![Dashboard Plugin](https://cdn.shopify.com/s/files/1/0843/0167/6823/files/image3.png?v=1712788914)  *(Reemplazar `URL_IMAGEN_DASHBOARD` con la URL de la imagen correspondiente)*
+![Dashboard Plugin](https://cdn.shopify.com/s/files/1/0843/0167/6823/files/image3.png?v=1712788914) 
+![Dashboard Plugin](https://cdn.shopify.com/s/files/1/0843/0167/6823/files/image4.png?v=1712788914) 
 
 ## Solución al Segundo Punto: Custom Post Type "Libros"
 
@@ -42,6 +43,7 @@ La página "About" incluye:
 **Implementación**: La solución se integra en el archivo `functions.php` del tema `twentytwentyfour`.
 
 - Ver implementación en: [Custom Post Type Libros](https://github.com/jhonbyronquirozperez/Soluci-n-Prueba-t-cnica-Jhon-Quiroz/blob/main/wp-content/themes/twentytwentyfour/functions.php)
+![Dashboard Plugin](https://cdn.shopify.com/s/files/1/0843/0167/6823/files/image2.png?v=1712788913) 
 
 ### Vista del Listado de Libros
 
