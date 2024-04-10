@@ -1,47 +1,56 @@
-# Plugin de Libros para WordPress
+# Solución Prueba Técnica - Jhon Byron Quiroz
 
-Este plugin permite añadir y mostrar un listado de libros en un sitio WordPress, utilizando un Custom Post Type (CPT) y un page template personalizado.
+Este documento describe las soluciones implementadas para la prueba técnica propuesta, incluyendo la creación de un plugin personalizado en WordPress y la gestión de un Custom Post Type para libros.
 
-## Características
+## Solución al Primer Punto: ScanToolWP Plugin
 
-- Registro de un Custom Post Type `libro`.
-- Meta boxes para añadir detalles específicos de cada libro, como autor, género y año de publicación.
-- Un page template que muestra un listado de todos los libros registrados en el sitio.
+**Objetivo**: Crear un plugin que añada un menú en el Dashboard de WordPress con las páginas "Dashboard" y "About", mostrando información específica.
 
-## Requisitos
+### Página Dashboard
 
-- WordPress 5.0 o superior.
+La página "Dashboard" del plugin muestra:
 
-## Instalación
+- Nombre del sitio
+- URL de instalación
+- URL de WordPress
+- Versión de WordPress
+- Listado de temas instalados (tema activo en negrita)
+- Listado de plugins instalados (activos en verde, inactivos en rojo)
+- Número de páginas publicadas
+- Número de blogs publicados
 
-1. Descarga el archivo ZIP del plugin.
-2. Ve a tu escritorio de WordPress y navega a `Plugins > Añadir nuevo`.
-3. Haz clic en `Subir Plugin` y selecciona el archivo ZIP descargado.
-4. Activa el plugin a través del menú 'Plugins' en WordPress.
+### Página About
 
-## Uso
+La página "About" incluye:
 
-### Añadir un Nuevo Libro
+- Nombre del autor del plugin (Jhon Byron Quiroz)
+- Botones de redes sociales apuntando a las páginas de NativApps:
+  - [Facebook](https://www.facebook.com/nativapps)
+  - [Instagram](https://www.instagram.com/nativapps/)
+  - [LinkedIn](https://www.linkedin.com/company/nativapps-inc/)
 
-1. Ve a `Libros > Añadir Nuevo` en tu escritorio de WordPress.
-2. Añade el título, descripción, y detalles específicos del libro como autor, género y año de publicación mediante los meta boxes proporcionados.
-3. Publica el libro.
+**Implementación**: Se instaló WordPress localmente (v6.5) sin modificar archivos de origen. El plugin `ScanToolWP` se encuentra en la carpeta de plugins, permitiendo su activación y desactivación.
 
-### Mostrar el Listado de Libros
+- Código fuente disponible en: [ScanToolWP Plugin](https://github.com/jhonbyronquirozperez/Soluci-n-Prueba-t-cnica-Jhon-Quiroz/blob/main/wp-content/plugins/ScanToolWP/Scantool.php)
 
-- Crea una nueva página en WordPress.
-- Asigna el page template `Listado de Libros` a esta página a través del editor de página.
-- Visita la página para ver el listado de libros.
+![Dashboard Plugin](URL_IMAGEN_DASHBOARD)  *(Reemplazar `URL_IMAGEN_DASHBOARD` con la URL de la imagen correspondiente)*
 
-## Personalización
+## Solución al Segundo Punto: Custom Post Type "Libros"
 
-Puedes personalizar el estilo del listado de libros editando los archivos CSS de tu tema.
+**Objetivo**: Agregar un menú "Libros" en el Dashboard para gestionar libros con campos específicos (Nombre, Género, Autor, Año de publicación, Imagen de portada).
 
-## Contribuciones
+**Implementación**: La solución se integra en el archivo `functions.php` del tema `twentytwentyfour`.
 
-Las contribuciones son bienvenidas. Por favor, siente libre de forkear el repositorio y enviar tus pull requests.
+- Ver implementación en: [Custom Post Type Libros](https://github.com/jhonbyronquirozperez/Soluci-n-Prueba-t-cnica-Jhon-Quiroz/blob/main/wp-content/themes/twentytwentyfour/functions.php)
 
-## Licencia
+### Vista del Listado de Libros
 
-Este plugin está licenciado bajo la Licencia GPL v2 o posterior.
-# Soluci-n-Prueba-t-cnica-Jhon-Quiroz
+La vista para listar los libros se implementa en `page-listado-libros.php`, en la misma carpeta del archivo `functions.php`.
+
+- Vista de listado de libros: [Listado de Libros](https://github.com/jhonbyronquirozperez/Soluci-n-Prueba-t-cnica-Jhon-Quiroz/blob/main/wp-content/themes/twentytwentyfour/page-listado-libros.php)
+
+![Listado de Libros](URL_IMAGEN_LISTADO_LIBROS)  *(Reemplazar `URL_IMAGEN_LISTADO_LIBROS` con la URL de la imagen correspondiente)*
+
+---
+
+*Desarrollado por Jhon Byron Quiroz*
