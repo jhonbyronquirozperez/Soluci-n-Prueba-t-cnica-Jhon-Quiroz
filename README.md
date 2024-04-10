@@ -51,7 +51,7 @@ La vista para listar los libros se implementa en `page-listado-libros.php`, en l
 
 - Vista de listado de libros: [Listado de Libros](https://github.com/jhonbyronquirozperez/Soluci-n-Prueba-t-cnica-Jhon-Quiroz/blob/main/wp-content/themes/twentytwentyfour/page-listado-libros.php)
 
-![Listado de Libros](URL_IMAGEN_LISTADO_LIBROS)  *(Reemplazar `URL_IMAGEN_LISTADO_LIBROS` con la URL de la imagen correspondiente)*
+![Listado de Libros](URL_IMAGEN_LISTADO_LIBROS)  
 
 ---
 
