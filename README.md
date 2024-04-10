@@ -33,7 +33,7 @@ La página "About" incluye:
 
 - Código fuente disponible en: [ScanToolWP Plugin](https://github.com/jhonbyronquirozperez/Soluci-n-Prueba-t-cnica-Jhon-Quiroz/blob/main/wp-content/plugins/ScanToolWP/Scantool.php)
 
-![Dashboard Plugin](URL_IMAGEN_DASHBOARD)  *(Reemplazar `URL_IMAGEN_DASHBOARD` con la URL de la imagen correspondiente)*
+![Dashboard Plugin](https://cdn.shopify.com/s/files/1/0843/0167/6823/files/image3.png?v=1712788914)  *(Reemplazar `URL_IMAGEN_DASHBOARD` con la URL de la imagen correspondiente)*
 
 ## Solución al Segundo Punto: Custom Post Type "Libros"
 
